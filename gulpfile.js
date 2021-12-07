@@ -21,10 +21,11 @@ gulp.task('build', ['clean'], function () {
     var task = gulp.src('task/**/*', { base: '.' })
         .pipe(debug({title: 'task:'}))
         .pipe(gulp.dest(_buildRoot));
+
     
     return merge(extension, task);
 });
-
+    //fillTHis
 gulp.task('clean', function() {
    return del([_buildRoot]);
 });
