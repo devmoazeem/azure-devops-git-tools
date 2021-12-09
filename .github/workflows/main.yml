@@ -23,6 +23,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/mohamedabdelazim0746/mohamedabdelazim
-            azure-pipeline-name: 'devmoazeem.azure-devops-git-tools'
+            azure-devops-project-url: https://dev.azure.com/ExcellentProtection/EMPLOYEE%20SELF%20SERVICES
+            azure-pipeline-name: 'EMPLOYEE SELF SERVICES-CI'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
